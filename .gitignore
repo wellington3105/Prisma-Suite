@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+# material local, nao reproduzivel por clone (152 MB, sem git proprio): ver README
+external/prisma-video-skills/motion-skills-packs/

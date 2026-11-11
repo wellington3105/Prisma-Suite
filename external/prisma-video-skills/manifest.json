@@ -1,0 +1,800 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-21T21:47:57.7127479-03:00",
+  "root": "C:\\Users\\welli\\.aiox-global\\vendor\\prisma-video-skills",
+  "items": [
+    {
+      "name": "video-use",
+      "source": "https://github.com/browser-use/video-use.git",
+      "commit": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "skill_count": 2,
+      "skill_files": [
+        "SKILL.md",
+        "skills/manim-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "herk-edit-kit",
+      "source": "https://github.com/nateherkai/herk-edit-kit.git",
+      "commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "skill_count": 30,
+      "skill_files": [
+        ".agents/skills/cut-mistakes/SKILL.md",
+        ".agents/skills/cut-silences/SKILL.md",
+        ".agents/skills/edit-video/SKILL.md",
+        ".agents/skills/gsap/SKILL.md",
+        ".agents/skills/hyperframes/SKILL.md",
+        ".agents/skills/hyperframes-cli/SKILL.md",
+        ".agents/skills/hyperframes-registry/SKILL.md",
+        ".agents/skills/hyperframes-video-beats/SKILL.md",
+        ".agents/skills/make-a-video/SKILL.md",
+        ".agents/skills/motion-showreel/SKILL.md",
+        ".agents/skills/short-form-edit/SKILL.md",
+        ".agents/skills/short-form-video/SKILL.md",
+        ".agents/skills/style-library/SKILL.md",
+        ".agents/skills/video-storytelling/SKILL.md",
+        ".agents/skills/website-to-hyperframes/SKILL.md",
+        ".claude/skills/cut-mistakes/SKILL.md",
+        ".claude/skills/cut-silences/SKILL.md",
+        ".claude/skills/edit-video/SKILL.md",
+        ".claude/skills/gsap/SKILL.md",
+        ".claude/skills/hyperframes/SKILL.md",
+        ".claude/skills/hyperframes-cli/SKILL.md",
+        ".claude/skills/hyperframes-registry/SKILL.md",
+        ".claude/skills/hyperframes-video-beats/SKILL.md",
+        ".claude/skills/make-a-video/SKILL.md",
+        ".claude/skills/motion-showreel/SKILL.md",
+        ".claude/skills/short-form-edit/SKILL.md",
+        ".claude/skills/short-form-video/SKILL.md",
+        ".claude/skills/style-library/SKILL.md",
+        ".claude/skills/video-storytelling/SKILL.md",
+        ".claude/skills/website-to-hyperframes/SKILL.md"
+      ]
+    },
+    {
+      "name": "ffmpeg-skill",
+      "source": "https://github.com/kajisho5/ffmpeg-skill.git",
+      "commit": "970bc7222f7e3507f49287c0de5aa8e33b9fb13b",
+      "skill_count": 14,
+      "skill_files": [
+        "SKILL.md",
+        ".claude/skills/build-artifacts/SKILL.md",
+        ".claude/skills/ci-pipeline-synthesizer/SKILL.md",
+        ".claude/skills/code-review/SKILL.md",
+        ".claude/skills/concurrent-branches/SKILL.md",
+        ".claude/skills/cross-surface-changes/SKILL.md",
+        ".claude/skills/defect-reports/SKILL.md",
+        ".claude/skills/destructive-operations/SKILL.md",
+        ".claude/skills/git-hygiene/SKILL.md",
+        ".claude/skills/github-actions/SKILL.md",
+        ".claude/skills/mcp-server-design/SKILL.md",
+        ".claude/skills/release-management/SKILL.md",
+        ".claude/skills/reproducing-ci-locally/SKILL.md",
+        ".claude/skills/verifying-external-behavior/SKILL.md"
+      ]
+    },
+    {
+      "name": "OpenChatCut",
+      "source": "https://github.com/0xsline/OpenChatCut.git",
+      "commit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+      "skill_count": 31,
+      "skill_files": [
+        "skills/openchatcut/SKILL.md",
+        "src/agent/skills/ai-cinematic-short-film/SKILL.md",
+        "src/agent/skills/asset-import/SKILL.md",
+        "src/agent/skills/batch-montage-variants/SKILL.md",
+        "src/agent/skills/beat-sync-montage/SKILL.md",
+        "src/agent/skills/create-motion-graphics/SKILL.md",
+        "src/agent/skills/ecommerce-product-montage/SKILL.md",
+        "src/agent/skills/explainer-video/SKILL.md",
+        "src/agent/skills/export/SKILL.md",
+        "src/agent/skills/image-gen/SKILL.md",
+        "src/agent/skills/known-errors/SKILL.md",
+        "src/agent/skills/livestream-to-clips/SKILL.md",
+        "src/agent/skills/long-video-to-shorts/SKILL.md",
+        "src/agent/skills/motion-graphic-placement/SKILL.md",
+        "src/agent/skills/multi-clips-to-reels/SKILL.md",
+        "src/agent/skills/music/SKILL.md",
+        "src/agent/skills/music-intelligence/SKILL.md",
+        "src/agent/skills/news-rough-cut/SKILL.md",
+        "src/agent/skills/openchatcut-plugin-basics/SKILL.md",
+        "src/agent/skills/product-ad-video-script/SKILL.md",
+        "src/agent/skills/product-help/SKILL.md",
+        "src/agent/skills/shader-gen/SKILL.md",
+        "src/agent/skills/skill-creator/SKILL.md",
+        "src/agent/skills/storyboard-shot-breakdown/SKILL.md",
+        "src/agent/skills/talking-head-guide/SKILL.md",
+        "src/agent/skills/transcription/SKILL.md",
+        "src/agent/skills/verification/SKILL.md",
+        "src/agent/skills/video-gen/SKILL.md",
+        "src/agent/skills/video-thumbnail-generator/SKILL.md",
+        "src/agent/skills/voice/SKILL.md",
+        "src/agent/skills/widget-forms/SKILL.md"
+      ]
+    },
+    {
+      "name": "video-shotcraft",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft.git",
+      "commit": "43bd349a136651865ecfa6ea1cf012f6e957d304",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "motion-skills",
+      "source": "https://github.com/iart-ai/motion-skills.git",
+      "commit": "bb5a3ce666110855a3437de2f70e9968c408e005",
+      "skill_count": 0,
+      "skill_files": []
+    },
+    {
+      "name": "clipify",
+      "source": "https://github.com/louisedesadeleer/clipify.git",
+      "commit": "5f6b75e6c0bfdce3cc9c78b850a67e23d65d9783",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "claude-shorts",
+      "source": "https://github.com/AgriciDaniel/claude-shorts.git",
+      "commit": "a369fad9d84287edbb8fa3ab515f268e770f683b",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "motion-graphics",
+      "source": "https://github.com/Barty-Bart/motion-graphics.git",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "skill_count": 6,
+      "skill_files": [
+        "skills/explainer-default/SKILL.md",
+        "skills/explainer-engaging/SKILL.md",
+        "skills/explainer-high-energy/SKILL.md",
+        "skills/motion-broll/SKILL.md",
+        "skills/object-separation/SKILL.md",
+        "skills/sound-effects/SKILL.md"
+      ]
+    },
+    {
+      "name": "youtube-agent-skill",
+      "source": "https://github.com/Jakeschincariol/youtube-agent-skill.git",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "skill_count": 11,
+      "skill_files": [
+        "skills/yt-audit/SKILL.md",
+        "skills/yt-chapters/SKILL.md",
+        "skills/yt-comment/SKILL.md",
+        "skills/yt-edit/SKILL.md",
+        "skills/yt-package/SKILL.md",
+        "skills/yt-plan/SKILL.md",
+        "skills/yt-retention/SKILL.md",
+        "skills/yt-script/SKILL.md",
+        "skills/yt-seo/SKILL.md",
+        "skills/yt-shorts/SKILL.md",
+        "skills/yt-viral/SKILL.md"
+      ]
+    },
+    {
+      "name": "claude-video-vision",
+      "source": "https://github.com/jordanrendric/claude-video-vision.git",
+      "commit": "4a4f99016f249a24018cd19b66531ebbcd58024b",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/video-perception/SKILL.md"
+      ]
+    },
+    {
+      "name": "watch-video-skill",
+      "source": "https://github.com/Newuxtreme/watch-video-skill.git",
+      "commit": "16313155ba87c22397ed20634766cb0606e2dbaa",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "claude-watch",
+      "source": "https://github.com/devinilabs/claude-watch.git",
+      "commit": "ade7d6154ba09a3579dee13c594e3a17cf99a7d1",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "omni-captions-skills",
+      "source": "https://github.com/lattifai/omni-captions-skills.git",
+      "commit": "22fc75767540434f3bdae27e86e3398df2b362d4",
+      "skill_count": 5,
+      "skill_files": [
+        "skills/omnicaptions-convert/SKILL.md",
+        "skills/omnicaptions-download/SKILL.md",
+        "skills/omnicaptions-LaiCut/SKILL.md",
+        "skills/omnicaptions-transcribe/SKILL.md",
+        "skills/omnicaptions-translate/SKILL.md"
+      ]
+    },
+    {
+      "name": "color-grade-ai",
+      "source": "https://github.com/isaacrowntree/color-grade-ai.git",
+      "commit": "a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+      "skill_count": 1,
+      "skill_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "elevenlabs-skills",
+      "source": "https://github.com/elevenlabs/skills.git",
+      "commit": "269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+      "skill_count": 13,
+      "skill_files": [
+        ".agents/skills/update-skills-from-changelog/SKILL.md",
+        "agents/SKILL.md",
+        "dubbing/SKILL.md",
+        "music/SKILL.md",
+        "onboarding/SKILL.md",
+        "realtime/SKILL.md",
+        "setup-api-key/SKILL.md",
+        "sound-effects/SKILL.md",
+        "speech-engine/SKILL.md",
+        "speech-to-text/SKILL.md",
+        "text-to-speech/SKILL.md",
+        "voice-changer/SKILL.md",
+        "voice-isolator/SKILL.md"
+      ]
+    },
+    {
+      "name": "pexo-skills",
+      "source": "https://github.com/pexoai/pexo-skills.git",
+      "commit": "f724267e45a065b6be445ea6f07312e62d3207cd",
+      "skill_count": 20,
+      "skill_files": [
+        "skills/ai-video-generation/SKILL.md",
+        "skills/explainer-video/SKILL.md",
+        "skills/founder-video/SKILL.md",
+        "skills/image-to-video/SKILL.md",
+        "skills/launch-video/SKILL.md",
+        "skills/make-a-video/SKILL.md",
+        "skills/pexo-agent/SKILL.md",
+        "skills/product-video/SKILL.md",
+        "skills/saas-video/SKILL.md",
+        "skills/seedance-2.0-prompter/SKILL.md",
+        "skills/startup-video/SKILL.md",
+        "skills/text-to-video/SKILL.md",
+        "skills/tiktok-video-ad/SKILL.md",
+        "skills/veo-3.2-prompter/SKILL.md",
+        "skills/video-ad/SKILL.md",
+        "skills/videoagent-audio-studio/SKILL.md",
+        "skills/videoagent-director/SKILL.md",
+        "skills/videoagent-image-studio/SKILL.md",
+        "skills/videoagent-video-studio/SKILL.md",
+        "skills/youtube-short-maker/SKILL.md"
+      ]
+    },
+    {
+      "name": "visual-skills",
+      "source": "https://github.com/smixs/visual-skills.git",
+      "commit": "92be33a5a73325fb3d8e0c73b22744b114e2a90e",
+      "skill_count": 2,
+      "skill_files": [
+        "image/SKILL.md",
+        "video/SKILL.md"
+      ]
+    },
+    {
+      "name": "claude-code-video-toolkit",
+      "source": "https://github.com/digitalsamba/claude-code-video-toolkit.git",
+      "commit": "da3f474c1230d161be1384ef97aec27f73b11636",
+      "skill_count": 14,
+      "skill_files": [
+        ".claude/skills/acestep/SKILL.md",
+        ".claude/skills/elevenlabs/SKILL.md",
+        ".claude/skills/ffmpeg/SKILL.md",
+        ".claude/skills/frontend-design/SKILL.md",
+        ".claude/skills/ideogram4/SKILL.md",
+        ".claude/skills/ltx2/SKILL.md",
+        ".claude/skills/moviepy/SKILL.md",
+        ".claude/skills/playwright-recording/SKILL.md",
+        ".claude/skills/qwen-edit/SKILL.md",
+        ".claude/skills/remotion/SKILL.md",
+        ".claude/skills/remotion-official/SKILL.md",
+        ".claude/skills/runpod/SKILL.md",
+        ".claude/skills/synthetic-ui-demo/SKILL.md",
+        "skills/openclaw-video-toolkit/SKILL.md"
+      ]
+    },
+    {
+      "name": "OpenMontage",
+      "source": "https://github.com/calesthio/OpenMontage.git",
+      "commit": "c8066452325cb57c8fc1ba8c2a71b6e8842e6b65",
+      "skill_count": 139,
+      "skill_files": [
+        ".agents/skills/3d-asset-generation/SKILL.md",
+        ".agents/skills/acestep/SKILL.md",
+        ".agents/skills/agents/SKILL.md",
+        ".agents/skills/ai-video-gen/SKILL.md",
+        ".agents/skills/atlas-cloud/SKILL.md",
+        ".agents/skills/avatar-video/SKILL.md",
+        ".agents/skills/azure-speech-to-text/SKILL.md",
+        ".agents/skills/azure-text-to-speech/SKILL.md",
+        ".agents/skills/beautiful-mermaid/SKILL.md",
+        ".agents/skills/bfl-api/SKILL.md",
+        ".agents/skills/canvas-procedural-animation/SKILL.md",
+        ".agents/skills/character-animation-qa/SKILL.md",
+        ".agents/skills/character-rigging/SKILL.md",
+        ".agents/skills/comfyui/SKILL.md",
+        ".agents/skills/create-video/SKILL.md",
+        ".agents/skills/d3-viz/SKILL.md",
+        ".agents/skills/dashscope/SKILL.md",
+        ".agents/skills/doubao-tts/SKILL.md",
+        ".agents/skills/elevenlabs/SKILL.md",
+        ".agents/skills/faceswap/SKILL.md",
+        ".agents/skills/ffmpeg/SKILL.md",
+        ".agents/skills/fish-audio-tts/SKILL.md",
+        ".agents/skills/flux-best-practices/SKILL.md",
+        ".agents/skills/framer-motion/SKILL.md",
+        ".agents/skills/gemini-omni/SKILL.md",
+        ".agents/skills/grok-media/SKILL.md",
+        ".agents/skills/gsap-core/SKILL.md",
+        ".agents/skills/gsap-frameworks/SKILL.md",
+        ".agents/skills/gsap-performance/SKILL.md",
+        ".agents/skills/gsap-plugins/SKILL.md",
+        ".agents/skills/gsap-react/SKILL.md",
+        ".agents/skills/gsap-scrolltrigger/SKILL.md",
+        ".agents/skills/gsap-timeline/SKILL.md",
+        ".agents/skills/gsap-utils/SKILL.md",
+        ".agents/skills/heygen/SKILL.md",
+        ".agents/skills/hyperframes/SKILL.md",
+        ".agents/skills/hyperframes-animation/SKILL.md",
+        ".agents/skills/hyperframes-cli/SKILL.md",
+        ".agents/skills/hyperframes-core/SKILL.md",
+        ".agents/skills/hyperframes-creative/SKILL.md",
+        ".agents/skills/hyperframes-media/SKILL.md",
+        ".agents/skills/hyperframes-registry/SKILL.md",
+        ".agents/skills/kling-official/SKILL.md",
+        ".agents/skills/lottie-bodymovin/SKILL.md",
+        ".agents/skills/ltx2/SKILL.md",
+        ".agents/skills/lyria/SKILL.md",
+        ".agents/skills/manim-composer/SKILL.md",
+        ".agents/skills/manimce-best-practices/SKILL.md",
+        ".agents/skills/manimgl-best-practices/SKILL.md",
+        ".agents/skills/media-use/SKILL.md",
+        ".agents/skills/minimax-h3/SKILL.md",
+        ".agents/skills/motion-graphics/SKILL.md",
+        ".agents/skills/music/SKILL.md",
+        ".agents/skills/music-to-video/SKILL.md",
+        ".agents/skills/playwright-recording/SKILL.md",
+        ".agents/skills/pose-library-design/SKILL.md",
+        ".agents/skills/provider-model-refresh/SKILL.md",
+        ".agents/skills/remotion/SKILL.md",
+        ".agents/skills/remotion-best-practices/SKILL.md",
+        ".agents/skills/remotion-to-hyperframes/SKILL.md",
+        ".agents/skills/seedance-2-0/SKILL.md",
+        ".agents/skills/seedance-2-5/SKILL.md",
+        ".agents/skills/setup-api-key/SKILL.md",
+        ".agents/skills/sound-effects/SKILL.md",
+        ".agents/skills/speech-to-text/SKILL.md",
+        ".agents/skills/svg-character-animation/SKILL.md",
+        ".agents/skills/synthetic-screen-recording/SKILL.md",
+        ".agents/skills/tailwind-design-system/SKILL.md",
+        ".agents/skills/text-to-speech/SKILL.md",
+        ".agents/skills/threejs-animation/SKILL.md",
+        ".agents/skills/threejs-fundamentals/SKILL.md",
+        ".agents/skills/threejs-geometry/SKILL.md",
+        ".agents/skills/threejs-interaction/SKILL.md",
+        ".agents/skills/threejs-lighting/SKILL.md",
+        ".agents/skills/threejs-loaders/SKILL.md",
+        ".agents/skills/threejs-materials/SKILL.md",
+        ".agents/skills/threejs-postprocessing/SKILL.md",
+        ".agents/skills/threejs-shaders/SKILL.md",
+        ".agents/skills/threejs-textures/SKILL.md",
+        ".agents/skills/threejs-world-generation/SKILL.md",
+        ".agents/skills/vercel-composition-patterns/SKILL.md",
+        ".agents/skills/vercel-react-best-practices/SKILL.md",
+        ".agents/skills/video-download/SKILL.md",
+        ".agents/skills/video-edit/SKILL.md",
+        ".agents/skills/video-toolkit/SKILL.md",
+        ".agents/skills/video-translate/SKILL.md",
+        ".agents/skills/video-understand/SKILL.md",
+        ".agents/skills/visual-style/SKILL.md",
+        ".agents/skills/web-design-guidelines/SKILL.md",
+        ".agents/skills/website-to-video/SKILL.md",
+        ".claude/skills/acestep/SKILL.md",
+        ".claude/skills/agents/SKILL.md",
+        ".claude/skills/ai-video-gen/SKILL.md",
+        ".claude/skills/avatar-video/SKILL.md",
+        ".claude/skills/azure-speech-to-text/SKILL.md",
+        ".claude/skills/azure-text-to-speech/SKILL.md",
+        ".claude/skills/beautiful-mermaid/SKILL.md",
+        ".claude/skills/bfl-api/SKILL.md",
+        ".claude/skills/create-video/SKILL.md",
+        ".claude/skills/d3-viz/SKILL.md",
+        ".claude/skills/elevenlabs/SKILL.md",
+        ".claude/skills/faceswap/SKILL.md",
+        ".claude/skills/ffmpeg/SKILL.md",
+        ".claude/skills/flux-best-practices/SKILL.md",
+        ".claude/skills/framer-motion/SKILL.md",
+        ".claude/skills/heygen/SKILL.md",
+        ".claude/skills/lottie-bodymovin/SKILL.md",
+        ".claude/skills/ltx2/SKILL.md",
+        ".claude/skills/manim-composer/SKILL.md",
+        ".claude/skills/manimce-best-practices/SKILL.md",
+        ".claude/skills/manimgl-best-practices/SKILL.md",
+        ".claude/skills/music/SKILL.md",
+        ".claude/skills/playwright-recording/SKILL.md",
+        ".claude/skills/remotion/SKILL.md",
+        ".claude/skills/remotion-best-practices/SKILL.md",
+        ".claude/skills/setup-api-key/SKILL.md",
+        ".claude/skills/sound-effects/SKILL.md",
+        ".claude/skills/speech-to-text/SKILL.md",
+        ".claude/skills/tailwind-design-system/SKILL.md",
+        ".claude/skills/text-to-speech/SKILL.md",
+        ".claude/skills/threejs-animation/SKILL.md",
+        ".claude/skills/threejs-fundamentals/SKILL.md",
+        ".claude/skills/threejs-geometry/SKILL.md",
+        ".claude/skills/threejs-interaction/SKILL.md",
+        ".claude/skills/threejs-lighting/SKILL.md",
+        ".claude/skills/threejs-loaders/SKILL.md",
+        ".claude/skills/threejs-materials/SKILL.md",
+        ".claude/skills/threejs-postprocessing/SKILL.md",
+        ".claude/skills/threejs-shaders/SKILL.md",
+        ".claude/skills/threejs-textures/SKILL.md",
+        ".claude/skills/vercel-composition-patterns/SKILL.md",
+        ".claude/skills/vercel-react-best-practices/SKILL.md",
+        ".claude/skills/video-download/SKILL.md",
+        ".claude/skills/video-edit/SKILL.md",
+        ".claude/skills/video-translate/SKILL.md",
+        ".claude/skills/video-understand/SKILL.md",
+        ".claude/skills/video_toolkit/SKILL.md",
+        ".claude/skills/visual-style/SKILL.md",
+        ".claude/skills/web-design-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "name": "anthropic-skills",
+      "source": "https://github.com/anthropics/skills.git",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "skill_count": 20,
+      "skill_files": [
+        "skills/academy-guide/SKILL.md",
+        "skills/algorithmic-art/SKILL.md",
+        "skills/brand-guidelines/SKILL.md",
+        "skills/canvas-design/SKILL.md",
+        "skills/claude-api/SKILL.md",
+        "skills/discernment-nudge/SKILL.md",
+        "skills/doc-coauthoring/SKILL.md",
+        "skills/docx/SKILL.md",
+        "skills/frontend-design/SKILL.md",
+        "skills/internal-comms/SKILL.md",
+        "skills/mcp-builder/SKILL.md",
+        "skills/pdf/SKILL.md",
+        "skills/pptx/SKILL.md",
+        "skills/skill-creator/SKILL.md",
+        "skills/slack-gif-creator/SKILL.md",
+        "skills/theme-factory/SKILL.md",
+        "skills/web-artifacts-builder/SKILL.md",
+        "skills/webapp-testing/SKILL.md",
+        "skills/xlsx/SKILL.md",
+        "template/SKILL.md"
+      ]
+    },
+    {
+      "name": "ghost-editor",
+      "source": "https://github.com/kurbaitaev/ghost-editor.git",
+      "commit": "ce172726c36293722b08eb57b5b307d4f06389e8",
+      "skill_count": 43,
+      "skill_files": [
+        "SKILL.md",
+        "docs/PLAYBOOK.md",
+        "recipes/caption-news/README.md",
+        "recipes/caption-news/SYSTEM.md",
+        "recipes/clean-os/README.md",
+        "recipes/clean-os/SYSTEM.md",
+        "recipes/data-story/README.md",
+        "recipes/data-story/SYSTEM.md",
+        "recipes/explainer-vector/README.md",
+        "recipes/halftone-dossier/README.md",
+        "recipes/halftone-dossier/SYSTEM.md",
+        "recipes/hologram-hud/README.md",
+        "recipes/hologram-hud/SYSTEM.md",
+        "recipes/kinetic-doc/README.md",
+        "recipes/kinetic-doc/SYSTEM.md",
+        "recipes/news-package/README.md",
+        "recipes/news-package/SYSTEM.md",
+        "recipes/pov-montage/README.md",
+        "recipes/product-page/README.md",
+        "recipes/product-page/SYSTEM.md",
+        "recipes/result-podcast/README.md",
+        "recipes/result-podcast/SYSTEM.md",
+        "recipes/seoul-list/README.md",
+        "recipes/seoul-list/SYSTEM.md",
+        "recipes/stan-style/README.md",
+        "recipes/stan-style/SYSTEM.md",
+        "recipes/step-deck/README.md",
+        "recipes/step-deck/SYSTEM.md",
+        "recipes/swiss-grid/README.md",
+        "recipes/swiss-grid/SYSTEM.md",
+        "recipes/tactile-paper/README.md",
+        "recipes/tactile-paper/SYSTEM.md",
+        "recipes/telestrator/README.md",
+        "recipes/telestrator/SYSTEM.md",
+        "recipes/whiteboard/README.md",
+        "recipes/whiteboard/SYSTEM.md",
+        "references/broll.md",
+        "references/cutout-fx.md",
+        "references/reel-json.md",
+        "references/reference-study-prompt.md",
+        "references/sound-and-memes.md",
+        "references/styles.md",
+        "references/take-selection.md"
+      ]
+    },
+    {
+      "name": "reelmimic",
+      "source": "https://github.com/edenfunf/reelmimic.git",
+      "commit": "311d835b623e1b6790d8823298dc0d5553661fe2",
+      "skill_count": 38,
+      "skill_files": [
+        ".claude/skills/anime-cel/SKILL.md",
+        ".claude/skills/blender-product-film/SKILL.md",
+        ".claude/skills/captions-overlay/SKILL.md",
+        ".claude/skills/crayon-storybook/SKILL.md",
+        ".claude/skills/cut-the-curve/SKILL.md",
+        ".claude/skills/embedded-captions/SKILL.md",
+        ".claude/skills/faceless-explainer/SKILL.md",
+        ".claude/skills/ffmpeg/SKILL.md",
+        ".claude/skills/figma/SKILL.md",
+        ".claude/skills/frontend-design/SKILL.md",
+        ".claude/skills/general-video/SKILL.md",
+        ".claude/skills/hyperframes-animation/SKILL.md",
+        ".claude/skills/hyperframes-audio/SKILL.md",
+        ".claude/skills/hyperframes-cli/SKILL.md",
+        ".claude/skills/hyperframes-core/SKILL.md",
+        ".claude/skills/hyperframes-creative/SKILL.md",
+        ".claude/skills/hyperframes-keyframes/SKILL.md",
+        ".claude/skills/hyperframes-registry/SKILL.md",
+        ".claude/skills/hyperframes-studio/SKILL.md",
+        ".claude/skills/hyperframes/SKILL.md",
+        ".claude/skills/media-use/SKILL.md",
+        ".claude/skills/motion-doctrine/SKILL.md",
+        ".claude/skills/motion-graphics/SKILL.md",
+        ".claude/skills/music-to-video/SKILL.md",
+        ".claude/skills/oversized-cursor/SKILL.md",
+        ".claude/skills/painted-animation/SKILL.md",
+        ".claude/skills/paper-cutout/SKILL.md",
+        ".claude/skills/pixel-art/SKILL.md",
+        ".claude/skills/pr-to-video/SKILL.md",
+        ".claude/skills/product-launch-video/SKILL.md",
+        ".claude/skills/remotion-to-hyperframes/SKILL.md",
+        ".claude/skills/seam-craft/SKILL.md",
+        ".claude/skills/slideshow/SKILL.md",
+        ".claude/skills/talking-head-recut/SKILL.md",
+        ".claude/skills/video-clone/SKILL.md",
+        ".claude/skills/whiteboard/SKILL.md",
+        "AGENTS.md",
+        "README.md"
+      ]
+    },
+    {
+      "name": "pixel2motion",
+      "source": "https://github.com/nolangz/pixel2motion.git",
+      "commit": "e9faedb28930df0da2acf17da00c80730a78cfe8",
+      "skill_count": 6,
+      "skill_files": [
+        "SKILL.md",
+        "references/html-delivery-template.md",
+        "references/motion-personality.md",
+        "references/reveal-patterns.md",
+        "references/ribbon-fitting.md",
+        "references/twelve-principles-for-logos.md"
+      ]
+    }
+  ],
+  "motion_packs": [
+    {
+      "name": "ad-video-skills",
+      "source": "https://github.com/iart-ai/ad-video-skills.git",
+      "commit": "0de0f2a1c1f42a98103fc0ec436509276428372c",
+      "skill_count": 3,
+      "skill_files": [
+        "skills/ad-creative-video/SKILL.md",
+        "skills/launch-video/SKILL.md",
+        "skills/testimonial-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "b-roll-skills",
+      "source": "https://github.com/iart-ai/b-roll-skills.git",
+      "commit": "a51e34b0a8def533759373733bde1869c21075fb",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/talking-head-b-roll/SKILL.md"
+      ]
+    },
+    {
+      "name": "data-animation-skills",
+      "source": "https://github.com/iart-ai/data-animation-skills.git",
+      "commit": "8ce2709c3992490251e8a991535b1945f01c6865",
+      "skill_count": 3,
+      "skill_files": [
+        "skills/animated-infographic/SKILL.md",
+        "skills/chart-animation/SKILL.md",
+        "skills/presentation-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "ecommerce-video-skills",
+      "source": "https://github.com/iart-ai/ecommerce-video-skills.git",
+      "commit": "2bd0dd19c9b2df5230f5d8f7453861b9681e49b4",
+      "skill_count": 3,
+      "skill_files": [
+        "skills/photo-slideshow/SKILL.md",
+        "skills/product-demo-video/SKILL.md",
+        "skills/promo-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "explainer-video-skills",
+      "source": "https://github.com/iart-ai/explainer-video-skills.git",
+      "commit": "3e2d411b725d9a72939cf8e5eb81579e751373e7",
+      "skill_count": 5,
+      "skill_files": [
+        "skills/diagram-animation/SKILL.md",
+        "skills/explainer-video/SKILL.md",
+        "skills/isometric-animation/SKILL.md",
+        "skills/whiteboard-animation/SKILL.md",
+        "skills/wrapped-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "freelance-motion-skills",
+      "source": "https://github.com/iart-ai/freelance-motion-skills.git",
+      "commit": "d85c2b484693d0387333c778d9c95230fa1856ce",
+      "skill_count": 5,
+      "skill_files": [
+        "skills/brand-motion-guidelines/SKILL.md",
+        "skills/client-revisions/SKILL.md",
+        "skills/creative-brief/SKILL.md",
+        "skills/motion-pricing/SKILL.md",
+        "skills/video-delivery-specs/SKILL.md"
+      ]
+    },
+    {
+      "name": "generative-illustration-skills",
+      "source": "https://github.com/iart-ai/generative-illustration-skills.git",
+      "commit": "e7d62437c875fc8ad5eff6e90fe0e25b30e43933",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/generative-illustration/SKILL.md"
+      ]
+    },
+    {
+      "name": "javascript-animation-skills",
+      "source": "https://github.com/iart-ai/javascript-animation-skills.git",
+      "commit": "f7d0882a313249cbd43f0e4e9e209b1622870253",
+      "skill_count": 2,
+      "skill_files": [
+        "skills/javascript-animation/SKILL.md",
+        "skills/soundtrack/SKILL.md"
+      ]
+    },
+    {
+      "name": "kinetic-typography-skills",
+      "source": "https://github.com/iart-ai/kinetic-typography-skills.git",
+      "commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/kinetic-typography/SKILL.md"
+      ]
+    },
+    {
+      "name": "lower-thirds-skills",
+      "source": "https://github.com/iart-ai/lower-thirds-skills.git",
+      "commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/lower-thirds/SKILL.md"
+      ]
+    },
+    {
+      "name": "manim-skills",
+      "source": "https://github.com/iart-ai/manim-skills.git",
+      "commit": "a15833c44de5108a3ee68f178a1fca126aa7c6d8",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/manim/SKILL.md"
+      ]
+    },
+    {
+      "name": "map-animation-skills",
+      "source": "https://github.com/iart-ai/map-animation-skills.git",
+      "commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/map-animation/SKILL.md"
+      ]
+    },
+    {
+      "name": "motion-design-skills",
+      "source": "https://github.com/iart-ai/motion-design-skills.git",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "skill_count": 9,
+      "skill_files": [
+        "skills/after-effects/SKILL.md",
+        "skills/animation-principles/SKILL.md",
+        "skills/beat-sync-editing/SKILL.md",
+        "skills/color-motion/SKILL.md",
+        "skills/logo-animation/SKILL.md",
+        "skills/motion-art-direction/SKILL.md",
+        "skills/motion-background/SKILL.md",
+        "skills/remotion-video/SKILL.md",
+        "skills/shot-composition/SKILL.md"
+      ]
+    },
+    {
+      "name": "text-message-video-skills",
+      "source": "https://github.com/iart-ai/text-message-video-skills.git",
+      "commit": "3a800e1e9b9635fa196a07b0143c80f7e9648558",
+      "skill_count": 1,
+      "skill_files": [
+        "skills/text-message-animation/SKILL.md"
+      ]
+    },
+    {
+      "name": "tiktok-video-skills",
+      "source": "https://github.com/iart-ai/tiktok-video-skills.git",
+      "commit": "2a775336b5a638cbf8a61dbd785f9a1b649be016",
+      "skill_count": 4,
+      "skill_files": [
+        "skills/caption-animation/SKILL.md",
+        "skills/countdown-video/SKILL.md",
+        "skills/lower-thirds/SKILL.md",
+        "skills/short-form-video/SKILL.md"
+      ]
+    },
+    {
+      "name": "web-animation-skills",
+      "source": "https://github.com/iart-ai/web-animation-skills.git",
+      "commit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "skill_count": 9,
+      "skill_files": [
+        "skills/60fps-animation/SKILL.md",
+        "skills/accessible-animation/SKILL.md",
+        "skills/ascii-animation/SKILL.md",
+        "skills/glassmorphism/SKILL.md",
+        "skills/gsap-web/SKILL.md",
+        "skills/lottie-animation/SKILL.md",
+        "skills/micro-interaction/SKILL.md",
+        "skills/page-transition-animation/SKILL.md",
+        "skills/svg-animation/SKILL.md"
+      ]
+    },
+    {
+      "name": "webgl-animation-skills",
+      "source": "https://github.com/iart-ai/webgl-animation-skills.git",
+      "commit": "50697d659fbf70152f48f9f8aadf1efe78bbdde1",
+      "skill_count": 3,
+      "skill_files": [
+        "skills/particle-system/SKILL.md",
+        "skills/shader-glsl/SKILL.md",
+        "skills/threejs-animation/SKILL.md"
+      ]
+    },
+    {
+      "name": "youtube-video-skills",
+      "source": "https://github.com/iart-ai/youtube-video-skills.git",
+      "commit": "f3df381d65abe5078f5ed410bbc3ed72e7cb92bd",
+      "skill_count": 2,
+      "skill_files": [
+        "skills/audiogram/SKILL.md",
+        "skills/youtube-intro-outro/SKILL.md"
+      ]
+    }
+  ]
+}

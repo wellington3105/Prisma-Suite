@@ -1,0 +1,75 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/wellington3105/Prisma.git
+[submodule "anthropic-skills"]
+	path = external/prisma-video-skills/anthropic-skills
+	url = https://github.com/anthropics/skills.git
+[submodule "claude-code-video-toolkit"]
+	path = external/prisma-video-skills/claude-code-video-toolkit
+	url = https://github.com/digitalsamba/claude-code-video-toolkit.git
+[submodule "claude-shorts"]
+	path = external/prisma-video-skills/claude-shorts
+	url = https://github.com/AgriciDaniel/claude-shorts.git
+[submodule "claude-video-vision"]
+	path = external/prisma-video-skills/claude-video-vision
+	url = https://github.com/jordanrendric/claude-video-vision.git
+[submodule "claude-watch"]
+	path = external/prisma-video-skills/claude-watch
+	url = https://github.com/devinilabs/claude-watch.git
+[submodule "clipify"]
+	path = external/prisma-video-skills/clipify
+	url = https://github.com/louisedesadeleer/clipify.git
+[submodule "color-grade-ai"]
+	path = external/prisma-video-skills/color-grade-ai
+	url = https://github.com/isaacrowntree/color-grade-ai.git
+[submodule "elevenlabs-skills"]
+	path = external/prisma-video-skills/elevenlabs-skills
+	url = https://github.com/elevenlabs/skills.git
+[submodule "ffmpeg-skill"]
+	path = external/prisma-video-skills/ffmpeg-skill
+	url = https://github.com/kajisho5/ffmpeg-skill.git
+[submodule "ghost-editor"]
+	path = external/prisma-video-skills/ghost-editor
+	url = https://github.com/kurbaitaev/ghost-editor.git
+[submodule "herk-edit-kit"]
+	path = external/prisma-video-skills/herk-edit-kit
+	url = https://github.com/nateherkai/herk-edit-kit.git
+[submodule "motion-graphics"]
+	path = external/prisma-video-skills/motion-graphics
+	url = https://github.com/Barty-Bart/motion-graphics.git
+[submodule "motion-skills"]
+	path = external/prisma-video-skills/motion-skills
+	url = https://github.com/iart-ai/motion-skills.git
+[submodule "omni-captions-skills"]
+	path = external/prisma-video-skills/omni-captions-skills
+	url = https://github.com/lattifai/omni-captions-skills.git
+[submodule "OpenChatCut"]
+	path = external/prisma-video-skills/OpenChatCut
+	url = https://github.com/0xsline/OpenChatCut.git
+[submodule "OpenMontage"]
+	path = external/prisma-video-skills/OpenMontage
+	url = https://github.com/calesthio/OpenMontage.git
+[submodule "pexo-skills"]
+	path = external/prisma-video-skills/pexo-skills
+	url = https://github.com/pexoai/pexo-skills.git
+[submodule "pixel2motion"]
+	path = external/prisma-video-skills/pixel2motion
+	url = https://github.com/nolangz/pixel2motion.git
+[submodule "reelmimic"]
+	path = external/prisma-video-skills/reelmimic
+	url = https://github.com/edenfunf/reelmimic.git
+[submodule "video-shotcraft"]
+	path = external/prisma-video-skills/video-shotcraft
+	url = https://github.com/Vincentwei1021/video-shotcraft.git
+[submodule "video-use"]
+	path = external/prisma-video-skills/video-use
+	url = https://github.com/browser-use/video-use.git
+[submodule "visual-skills"]
+	path = external/prisma-video-skills/visual-skills
+	url = https://github.com/smixs/visual-skills.git
+[submodule "watch-video-skill"]
+	path = external/prisma-video-skills/watch-video-skill
+	url = https://github.com/Newuxtreme/watch-video-skill.git
+[submodule "youtube-agent-skill"]
+	path = external/prisma-video-skills/youtube-agent-skill
+	url = https://github.com/Jakeschincariol/youtube-agent-skill.git

@@ -1,0 +1,400 @@
+{
+  "generated": "2026-11-11",
+  "binaries": {
+    "ffmpeg": {
+      "path": "C:\\Users\\welli\\bin\\ffmpeg.EXE",
+      "version": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "ffprobe": {
+      "path": "C:\\Users\\welli\\bin\\ffprobe.EXE",
+      "version": "ffprobe version 8.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+    },
+    "node": {
+      "path": "C:\\nvm4w\\nodejs\\node.EXE",
+      "version": "v22.23.2"
+    },
+    "npm": {
+      "path": "C:\\nvm4w\\nodejs\\npm.CMD",
+      "version": "10.9.8"
+    },
+    "npx": {
+      "path": "C:\\nvm4w\\nodejs\\npx.CMD",
+      "version": "10.9.8"
+    },
+    "uv": {
+      "path": "C:\\Users\\welli\\AppData\\Local\\hermes\\bin\\uv.EXE",
+      "version": "uv 0.12.5 (210d1f678 2026-08-14 x86_64-pc-windows-msvc)"
+    },
+    "yt-dlp": {
+      "path": "C:\\Users\\welli\\bin\\yt-dlp.CMD",
+      "version": "2026.07.04"
+    },
+    "git": {
+      "path": "C:\\Program Files\\Git\\ucrt64\\bin\\git.EXE",
+      "version": "git version 2.56.0.windows.2"
+    },
+    "nvidia-smi": {
+      "path": "C:\\WINDOWS\\system32\\nvidia-smi.EXE"
+    }
+  },
+  "python": {
+    "absl-py": "2.5.0",
+    "aiohappyeyeballs": "2.7.1",
+    "aiohttp": "3.14.3",
+    "aiosignal": "1.4.0",
+    "alembic": "1.19.0",
+    "antlr4-python3-runtime": "4.9.3",
+    "asteroid-filterbanks": "0.4.0",
+    "attrs": "26.1.0",
+    "av": "18.0.0",
+    "certifi": "2026.6.17",
+    "cffi": "2.1.1",
+    "charset-normalizer": "3.4.7",
+    "click": "8.4.2",
+    "colorama": "0.4.6",
+    "colorlog": "6.12.0",
+    "contourpy": "1.3.3",
+    "ctranslate2": "4.8.1",
+    "cycler": "0.12.1",
+    "decorator": "5.3.1",
+    "defusedxml": "0.7.1",
+    "einops": "0.8.2",
+    "faster-whisper": "1.2.1",
+    "filelock": "3.29.5",
+    "flatbuffers": "25.12.19",
+    "fonttools": "4.63.0",
+    "frozenlist": "1.8.0",
+    "fsspec": "2026.6.0",
+    "googleapis-common-protos": "1.75.1",
+    "greenlet": "3.5.4",
+    "grpcio": "1.83.0",
+    "huggingface-hub": "0.36.2",
+    "idna": "3.18",
+    "jinja2": "3.1.6",
+    "joblib": "1.5.3",
+    "julius": "0.2.8",
+    "kiwisolver": "1.5.0",
+    "lazy-loader": "0.6",
+    "librosa": "1.0.0",
+    "lightning": "2.6.5",
+    "lightning-utilities": "0.15.3",
+    "llvmlite": "0.50.0",
+    "mako": "1.4.1",
+    "markdown-it-py": "4.2.0",
+    "markupsafe": "3.0.3",
+    "matplotlib": "3.11.1",
+    "mdurl": "0.1.2",
+    "mediapipe": "1.0.1",
+    "mpmath": "1.3.0",
+    "msgpack": "1.2.3",
+    "multidict": "6.7.1",
+    "narwhals": "2.24.0",
+    "networkx": "3.6.1",
+    "nltk": "3.10.2",
+    "numba": "0.68.0",
+    "numpy": "2.4.6",
+    "omegaconf": "2.3.1",
+    "onnxruntime": "1.28.0",
+    "opencv-contrib-python": "5.0.0.93",
+    "opencv-python": "5.0.0.93",
+    "opencv-python-headless": "4.10.0.84",
+    "opentelemetry-api": "1.44.0",
+    "opentelemetry-exporter-otlp": "1.44.0",
+    "opentelemetry-exporter-otlp-proto-common": "1.44.0",
+    "opentelemetry-exporter-otlp-proto-grpc": "1.44.0",
+    "opentelemetry-exporter-otlp-proto-http": "1.44.0",
+    "opentelemetry-proto": "1.44.0",
+    "opentelemetry-sdk": "1.44.0",
+    "opentelemetry-semantic-conventions": "0.65b0",
+    "optuna": "4.9.0",
+    "packaging": "26.3",
+    "pandas": "3.0.5",
+    "pillow": "12.3.0",
+    "platformdirs": "4.11.3",
+    "pooch": "1.9.0",
+    "primepy": "1.3",
+    "prisma": "0.1.0",
+    "propcache": "0.5.2",
+    "protobuf": "7.35.1",
+    "pyannoteai-sdk": "0.4.0",
+    "pyannote-audio": "4.0.7",
+    "pyannote-core": "6.0.1",
+    "pyannote-database": "6.1.1",
+    "pyannote-metrics": "4.1",
+    "pyannote-pipeline": "4.0.0",
+    "pycolmap": "4.2.1",
+    "pycparser": "3.0",
+    "pygments": "2.20.0",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "pytorch-lightning": "2.6.5",
+    "pytorch-metric-learning": "2.9.0",
+    "pyyaml": "6.0.3",
+    "regex": "2026.7.19",
+    "requests": "2.34.2",
+    "rich": "15.0.0",
+    "safetensors": "0.8.0",
+    "scenedetect": "0.7.1",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "setuptools": "81.0.0",
+    "sherpa-onnx": "2.0.1",
+    "sherpa-onnx-core": "2.0.1",
+    "six": "1.17.0",
+    "sortedcontainers": "2.4.0",
+    "sounddevice": "0.5.6",
+    "soundfile": "0.14.0",
+    "soxr": "1.1.0",
+    "sqlalchemy": "2.0.51",
+    "sympy": "1.14.0",
+    "threadpoolctl": "3.6.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.8.0",
+    "torchaudio": "2.8.0",
+    "torchcodec": "0.7.0",
+    "torchmetrics": "1.9.0",
+    "torchvision": "0.23.0",
+    "torch-audiomentations": "0.12.0",
+    "torch-pitch-shift": "1.2.5",
+    "tqdm": "4.68.3",
+    "transformers": "4.57.6",
+    "typing-extensions": "4.16.0",
+    "tzdata": "2026.3",
+    "urllib3": "2.7.0",
+    "whisperx": "3.8.6",
+    "yarl": "1.24.5",
+    "yt-dlp": "2026.7.4"
+  },
+  "npm": {
+    "longform": {
+      "@react-three/fiber": "^9.7.0",
+      "@remotion/cli": "4.0.482",
+      "@remotion/google-fonts": "4.0.482",
+      "@remotion/layout-utils": "^4.0.482",
+      "@remotion/three": "^4.0.482",
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "remotion": "4.0.482",
+      "three": "^0.185.1",
+      "@types/react": "19.0.0",
+      "@types/three": "^0.185.4",
+      "typescript": "5.5.4"
+    },
+    "remotion-runtime": {
+      "@react-three/fiber": "^9.7.0",
+      "@remotion/cli": "4.0.482",
+      "@remotion/google-fonts": "4.0.482",
+      "@remotion/layout-utils": "4.0.482",
+      "@remotion/three": "4.0.482",
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "remotion": "4.0.482",
+      "three": "^0.185.1",
+      "@types/react": "19.0.0",
+      "@types/three": "^0.185.4",
+      "typescript": "5.5.4"
+    },
+    "shortform": {
+      "@react-three/fiber": "^9.7.0",
+      "@remotion/cli": "4.0.482",
+      "@remotion/google-fonts": "4.0.482",
+      "@remotion/layout-utils": "4.0.482",
+      "@remotion/three": "4.0.482",
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "remotion": "4.0.482",
+      "three": "^0.185.1",
+      "@types/react": "19.0.0",
+      "@types/three": "^0.185.4",
+      "typescript": "5.5.4"
+    }
+  },
+  "skills": {
+    "gemini-api-dev": {
+      "source": "google-gemini/gemini-skills",
+      "path": "skills/gemini-api-dev/SKILL.md",
+      "hash": "5c9c6bc8cf2ef3e3b11d784a97281d721fdac0ca"
+    },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "path": "skills/hyperframes/SKILL.md",
+      "hash": "c53bb3d906a74eca2ddef6d9c276c5facbf38ed9"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-cli/SKILL.md",
+      "hash": "e6fae2a8db0fcb4dad60a481c11210ecc326f61c"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-registry/SKILL.md",
+      "hash": "ca686aa889dbc82a3f8723df546a31f65ed2956c"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "path": "skills/media-use/SKILL.md",
+      "hash": "aed2abf9dae8a6c6cd8ca60d2ba592fb73921184"
+    },
+    "slideshow": {
+      "source": "heygen-com/hyperframes",
+      "path": "skills/slideshow/SKILL.md",
+      "hash": "bf2b7d3d60d1a93cba0e4b6d4620f2a9d1be7093"
+    }
+  },
+  "vendor": {
+    "anthropic-skills": {
+      "remote": "https://github.com/anthropics/skills.git",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "dirty": false
+    },
+    "claude-code-video-toolkit": {
+      "remote": "https://github.com/digitalsamba/claude-code-video-toolkit.git",
+      "commit": "da3f474c1230d161be1384ef97aec27f73b11636",
+      "dirty": false
+    },
+    "claude-shorts": {
+      "remote": "https://github.com/AgriciDaniel/claude-shorts.git",
+      "commit": "a369fad9d84287edbb8fa3ab515f268e770f683b",
+      "dirty": false
+    },
+    "claude-video-vision": {
+      "remote": "https://github.com/jordanrendric/claude-video-vision.git",
+      "commit": "4a4f99016f249a24018cd19b66531ebbcd58024b",
+      "dirty": false
+    },
+    "claude-watch": {
+      "remote": "https://github.com/devinilabs/claude-watch.git",
+      "commit": "ade7d6154ba09a3579dee13c594e3a17cf99a7d1",
+      "dirty": false
+    },
+    "clipify": {
+      "remote": "https://github.com/louisedesadeleer/clipify.git",
+      "commit": "5f6b75e6c0bfdce3cc9c78b850a67e23d65d9783",
+      "dirty": false
+    },
+    "color-grade-ai": {
+      "remote": "https://github.com/isaacrowntree/color-grade-ai.git",
+      "commit": "a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+      "dirty": false
+    },
+    "elevenlabs-skills": {
+      "remote": "https://github.com/elevenlabs/skills.git",
+      "commit": "269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+      "dirty": false
+    },
+    "ffmpeg-skill": {
+      "remote": "https://github.com/kajisho5/ffmpeg-skill.git",
+      "commit": "970bc7222f7e3507f49287c0de5aa8e33b9fb13b",
+      "dirty": false
+    },
+    "ghost-editor": {
+      "remote": "https://github.com/kurbaitaev/ghost-editor.git",
+      "commit": "ce172726c36293722b08eb57b5b307d4f06389e8",
+      "dirty": false
+    },
+    "herk-edit-kit": {
+      "remote": "https://github.com/nateherkai/herk-edit-kit.git",
+      "commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "dirty": false
+    },
+    "motion-graphics": {
+      "remote": "https://github.com/Barty-Bart/motion-graphics.git",
+      "commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "dirty": false
+    },
+    "motion-skills": {
+      "remote": "https://github.com/iart-ai/motion-skills.git",
+      "commit": "bb5a3ce666110855a3437de2f70e9968c408e005",
+      "dirty": false
+    },
+    "motion-skills-packs": {
+      "git": false
+    },
+    "omni-captions-skills": {
+      "remote": "https://github.com/lattifai/omni-captions-skills.git",
+      "commit": "22fc75767540434f3bdae27e86e3398df2b362d4",
+      "dirty": false
+    },
+    "OpenChatCut": {
+      "remote": "https://github.com/0xsline/OpenChatCut.git",
+      "commit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+      "dirty": false
+    },
+    "OpenMontage": {
+      "remote": "https://github.com/calesthio/OpenMontage.git",
+      "commit": "c8066452325cb57c8fc1ba8c2a71b6e8842e6b65",
+      "dirty": false
+    },
+    "pexo-skills": {
+      "remote": "https://github.com/pexoai/pexo-skills.git",
+      "commit": "f724267e45a065b6be445ea6f07312e62d3207cd",
+      "dirty": false
+    },
+    "pixel2motion": {
+      "remote": "https://github.com/nolangz/pixel2motion.git",
+      "commit": "e9faedb28930df0da2acf17da00c80730a78cfe8",
+      "dirty": false
+    },
+    "reelmimic": {
+      "remote": "https://github.com/edenfunf/reelmimic.git",
+      "commit": "311d835b623e1b6790d8823298dc0d5553661fe2",
+      "dirty": false
+    },
+    "video-shotcraft": {
+      "remote": "https://github.com/Vincentwei1021/video-shotcraft.git",
+      "commit": "43bd349a136651865ecfa6ea1cf012f6e957d304",
+      "dirty": false
+    },
+    "video-use": {
+      "remote": "https://github.com/browser-use/video-use.git",
+      "commit": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "dirty": false
+    },
+    "visual-skills": {
+      "remote": "https://github.com/smixs/visual-skills.git",
+      "commit": "92be33a5a73325fb3d8e0c73b22744b114e2a90e",
+      "dirty": false
+    },
+    "watch-video-skill": {
+      "remote": "https://github.com/Newuxtreme/watch-video-skill.git",
+      "commit": "16313155ba87c22397ed20634766cb0606e2dbaa",
+      "dirty": false
+    },
+    "youtube-agent-skill": {
+      "remote": "https://github.com/Jakeschincariol/youtube-agent-skill.git",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "dirty": false
+    }
+  },
+  "models": {
+    "core/helpers/models/face_detection_yunet_2023mar.onnx": {
+      "bytes": 232589,
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+    },
+    "core/assets/models/blaze_face_short_range.tflite": {
+      "bytes": 229746,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+    },
+    "core/assets/models/selfie_multiclass_256x256.tflite": {
+      "bytes": 16371837,
+      "sha256": "c6748b1253a99067ef71f7e26ca71096cd449baefa8f101900ea23016507e0e0"
+    }
+  },
+  "caches": {
+    "huggingface": {
+      "path": "C:\\Users\\welli\\.cache\\huggingface",
+      "exists": true,
+      "mb": 8131
+    },
+    "torch": {
+      "path": "C:\\Users\\welli\\.cache\\torch",
+      "exists": true,
+      "mb": 541
+    },
+    "whisper": {
+      "path": "C:\\Users\\welli\\.cache\\whisper",
+      "exists": true,
+      "mb": 145
+    }
+  }
+}
