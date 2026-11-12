@@ -4,12 +4,16 @@ O Prisma (editor de video por conversa) e tudo que o orbita, numa pasta so.
 Mapa de tarefas, helpers e skills: **[ECOSYSTEM.md](ECOSYSTEM.md)**.
 
 ```bash
+gh auth login                                   # o repositorio e privado
 git clone --recurse-submodules https://github.com/wellington3105/Prisma-Suite.git
 cd Prisma-Suite
-python prisma-suite.py doctor        # confere binarios, skills, modelos, vendor
-cd core && uv sync                   # dependencias Python do Prisma
-cp .env.example .env                 # preencha so as chaves que for usar
+python prisma-suite.py install                  # skills no Claude Code, modelos, uv sync, caminhos
+python prisma-suite.py install --separador auto # + separador de voz (Python 3.11; GPU se houver NVIDIA)
+python prisma-suite.py doctor                   # confere tudo
 ```
+
+Antes: `uv`, `ffmpeg`, `node` 18+ e `git` (o instalador diz como instalar o que faltar).
+Depois: preencha `~/.claude/skills/prisma/.env` so com as chaves que for usar, e reabra o Claude Code.
 
 | Pasta | Conteudo | Como entra |
 |---|---|---|
@@ -20,8 +24,7 @@ cp .env.example .env                 # preencha so as chaves que for usar
 
 ## O que um clone NAO traz
 
-- **Modelos** (`.onnx`/`.tflite`): ignorados pelo git do Prisma. Veja `models/MODELOS.md`
-  (o YuNet tem URL de download em `core/helpers/safe_layout.py`).
+- **Modelos** (`.onnx`/`.tflite`): fora do git; o `install` baixa os tres das fontes oficiais (OpenCV Zoo e MediaPipe).
 - **`.env`** com as chaves: nunca versionado; use `core/.env.example`.
 - **`external/prisma-video-skills/motion-skills-packs/`** (152 MB, sem git proprio): existe so
   na maquina de origem.

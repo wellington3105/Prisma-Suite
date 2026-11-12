@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Prisma-Suite — ponto de entrada unico.
 
+  python prisma-suite.py install    instala tudo nesta maquina (repassa as opcoes ao install-suite.py)
   python prisma-suite.py doctor     confere binarios, skills, vendor, modelos e extras Python
   python prisma-suite.py manifest   regera manifests/ecosystem.lock.json
   python prisma-suite.py map        lista o mapa tarefa -> helper/skill (ECOSYSTEM.md)
 
-Somente biblioteca padrao. Nao instala nada: diz o que falta e como instalar.
+Somente biblioteca padrao. Fora o `install`, nenhum comando instala nada: dizem o que falta.
 """
 import json, shutil, subprocess, sys
 from pathlib import Path
@@ -51,7 +52,8 @@ def doctor() -> int:
         print(f"  {OK if not sem else WARN}{grp}: " + ("todas com SKILL.md" if not sem else "sem SKILL.md -> " + ", ".join(sem)))
     print("Modelos")
     for m in MODELOS:
-        ok = (SUITE / m).is_file()
+        inst = Path.home() / ".claude/skills/prisma" / m.removeprefix("core/")
+        ok = (SUITE / m).is_file() or inst.is_file()
         print(f"  {OK if ok else BAD}{m}")
         falhas += not ok
     print("Recursos externos (vendor)")
@@ -60,11 +62,11 @@ def doctor() -> int:
     print(f"  {OK if gits else BAD}{gits} repositorios git em {v.relative_to(SUITE)}")
     falhas += not gits
     print("Extras Python (no .venv do core, se existir)")
-    py = SUITE / "core/.venv/Scripts/python.exe"
+    cands = [Path.home() / ".claude/skills/prisma/.venv/Scripts/python.exe", Path.home() / ".claude/skills/prisma/.venv/bin/python",
+             SUITE / "core/.venv/Scripts/python.exe", SUITE / "core/.venv/bin/python"]
+    py = next((c for c in cands if c.exists()), cands[0])
     if not py.exists():
-        py = SUITE / "core/.venv/bin/python"
-    if not py.exists():
-        print(f"  {WARN}core/.venv ausente — rode: cd core && uv sync")
+        print(f"  {WARN}nenhum .venv do Prisma — rode: python prisma-suite.py install")
     else:
         for mod, extra in EXTRAS.items():
             r = subprocess.run([str(py), "-c", f"import importlib.util as u,sys;sys.exit(0 if u.find_spec('{mod.split('.')[0]}') else 1)"])
@@ -77,6 +79,8 @@ def main() -> int:
     cmd = sys.argv[1] if len(sys.argv) > 1 else "doctor"
     if cmd == "doctor":
         return doctor()
+    if cmd == "install":
+        return subprocess.call([sys.executable, str(SUITE / "install-suite.py"), *sys.argv[2:]])
     if cmd == "manifest":
         return subprocess.call([sys.executable, str(SUITE / "manifests/build_manifest.py")])
     if cmd == "map":
