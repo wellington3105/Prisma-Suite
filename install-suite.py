@@ -162,7 +162,9 @@ def main() -> int:
             cmd = [uv, "sync"]
             for x in filter(None, (e.strip() for e in a.extras.split(","))):
                 cmd += ["--extra", x]
-            if not run(cmd, cwd=prisma):
+            # Hardlink do cache do uv falha em alguns discos (OneDrive/arquivos de nuvem,
+            # outro volume): os error 396. Copiar e mais lento, mas sempre funciona.
+            if not run(cmd, cwd=prisma) and not run(cmd + ["--link-mode=copy"], cwd=prisma):
                 avisos.append("uv sync falhou no Prisma — veja a mensagem acima")
 
     # 6. separador de voz (opcional)
