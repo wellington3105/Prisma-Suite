@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="brand/banner-suite.svg" alt="PRISMA SUITE" width="100%">
+</p>
+
+<p align="center">
+  <b>O Prisma e todo o seu ecossistema</b> — editor de vídeo por conversa, motores de render, motion/VFX, trilha e 24 recursos externos.<br>
+  <sub>Claude Code &nbsp;·&nbsp; HyperFrames + Remotion &nbsp;·&nbsp; instalação em um comando</sub>
+</p>
+
+---
+
 # Prisma-Suite
 
 O Prisma (editor de video por conversa) e tudo que o orbita, numa pasta so.
@@ -21,6 +32,11 @@ Depois: preencha `~/.claude/skills/prisma/.env` so com as chaves que for usar, e
 | `external/prisma-video-skills/*` | 24 recursos externos | 24 submodulos fixados por commit |
 | `engines/`, `motion-vfx/` | HyperFrames, Remotion, GSAP, Three.js, Rive, Lottie... | copiados (arquivos) |
 | `manifests/` | versoes fixas (`ecosystem.lock.json`) | gerado por `prisma-suite.py manifest` |
+
+## Identidade visual
+
+A marca é a do Prisma (abertura de câmera, ver `core/references/brand.md`): `brand/prisma-logo.svg` (símbolo + nome),
+`brand/prisma-mark.svg` (favicon/avatar), `brand/banner.svg` e `brand/banner-suite.svg` (fundo `#07080a`).
 
 ## O que um clone NAO traz
 
