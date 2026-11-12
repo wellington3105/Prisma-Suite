@@ -5,3 +5,7 @@ __pycache__/
 .env.*
 # material local, nao reproduzivel por clone (152 MB, sem git proprio): ver README
 external/prisma-video-skills/motion-skills-packs/
+
+# trilha cinematografica: ambiente e modelos locais
+audio/trilha-cinematografica/.venv-separador/
+audio/trilha-cinematografica/modelos/

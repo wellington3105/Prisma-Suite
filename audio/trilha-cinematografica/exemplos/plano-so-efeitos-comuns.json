@@ -1,0 +1,20 @@
+{
+ "_sobre": "Versão 'som normal' para comparar: a mesma voz, a mesma linha do tempo e o mesmo drop do plano-exemplo, só com efeitos comuns (boom, whoosh, prato invertido) e nada tonal. O drop sai no mesmo nível da versão cinematográfica, então dá para alternar as duas no vídeo sem pulo de volume.",
+ "duracao": 58.0,
+ "saida_lufs": -14,
+ "momentos": [[0.12, "BOOM"], [9.88, "VOZ + WHOOSH"], [16.09, "WHOOSH"], [32.23, "WHOOSH"], [34.46, "PRATO INVERTIDO"], [39.37, "DROP + BOOM"]],
+ "camadas": [
+  {"arquivo": "sons/comuns/boom.wav", "papel": "golpe", "grupo": "efeitos", "em": 0.12, "golpe": true, "lufs_alvo": -16},
+  {"arquivo": "sons/comuns/whoosh.wav", "papel": "golpe", "grupo": "efeitos", "em": 9.88, "golpe": true, "lufs_alvo": -20},
+  {"_obs": "a voz SEM o reverb: a versão normal soa como alguém que só pôs a música e uns efeitos",
+   "arquivo": "prep/voz.wav", "papel": "voz", "grupo": "voz", "corte": 1.0, "em": 9.88, "ate": 39.37,
+   "fade_in": 0.02, "fade_out": 0.03, "lufs_alvo": -17},
+  {"arquivo": "sons/comuns/whoosh.wav", "papel": "golpe", "grupo": "efeitos", "em": 16.09, "golpe": true, "lufs_alvo": -21},
+  {"arquivo": "sons/comuns/whoosh.wav", "papel": "golpe", "grupo": "efeitos", "em": 32.23, "golpe": true, "lufs_alvo": -21},
+  {"arquivo": "sons/comuns/prato-invertido.wav", "papel": "riser", "grupo": "efeitos",
+   "pico_em": 39.37, "subida": 4.9, "ate": 39.37, "fade_out": 0.02, "lufs_alvo": -20},
+  {"arquivo": "sons/comuns/boom.wav", "papel": "golpe", "grupo": "efeitos", "em": 39.37, "golpe": true, "lufs_alvo": -17},
+  {"arquivo": "musica/musica.wav", "papel": "musica", "grupo": "musica",
+   "corte": 30.42, "ataque": 0.065, "em": 39.37, "ate": 58.0, "lufs_alvo": -11.5}
+ ]
+}

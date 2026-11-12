@@ -16,6 +16,8 @@ Conferir a instalação: `python prisma-suite.py doctor`.
 | `engines/` | motores de render e mídia: `hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `media-use`, `slideshow`, `remotion-best-practices`, `remotion-motion-graphics` | `~/.claude/skills` |
 | `motion-vfx/` | `animate`, `rive-skills`, `text-to-lottie`, `wiggle-claude-skill`, `texto-slice-em-perspectiva`, 8 `gsap-*`, 10 `threejs-*` | `~/.claude/skills` |
 | `external/prisma-video-skills/` | os 24 recursos externos (1,7 GB, repos git aninhados) + `manifest.json` | `~/.aiox-global/vendor` |
+| `audio/` | skill `trilha-cinematografica` (scripts + exemplos de plano + PROMPT) | pacote @iamjeff.ia, 2026-11-12 |
+| `docs/analises/` | análises de pacotes antes de integrar | gerado |
 | `models/` | índice dos modelos; os arquivos ficam em `core/` onde o código os procura | ver `models/MODELOS.md` |
 | `manifests/` | `build_manifest.py` e `ecosystem.lock.json` | gerado |
 
@@ -34,6 +36,7 @@ Conferir a instalação: `python prisma-suite.py doctor`.
 | Fallback de render | `captions_for_remotion` | `engines/remotion-best-practices`, `remotion-motion-graphics` |
 | Legendas | `caption_style`, `captions_srt` | `core/references/shortform.md` |
 | SFX e trilha | `sfx_events`, `sfx_index`, `sfx_peak`, `sfx_synth` | `core/references/sfx-craft.md`, `soundtrack.md` |
+| Abertura cinematográfica de uma música (voz separada + tonais no tom + build-up até o drop) | apoio: `beat_map`, `epidemic_music` (stems licenciados), `sfx_index`, `qa_mix` (gate final) | `audio/trilha-cinematografica` (`medir_musica` → `separar_voz` → plano JSON → `trilha_momentos` → `prep_voz` → `stems` + `mix_voz_na_frente` → `conferir`) |
 | Inserts / B-roll | `inserts_plan` | `engines/media-use`, `core/references/scenes.md` |
 | Animação web (GSAP, Rive, Lottie, Three.js) | — | `motion-vfx/*` |
 | Texto preso à parede em perspectiva, atrás da pessoa, cortado ("slice") | apoio: `detect_plane`, `person_matte` | `motion-vfx/texto-slice-em-perspectiva` (`scripts/slice_texto.py config.json prova|final`; câmera parada) |
@@ -47,6 +50,8 @@ a fonte é sempre o `SKILL.md` e a `references/` correspondente.
 - **Sistema:** `uv`, `ffmpeg`, `ffprobe`, `node` 18+, `npx`; `yt-dlp` (vem no `uv sync`); `nvidia-smi` opcional.
 - **Python base:** whisperx, opencv-python-headless 4.10, scenedetect, librosa, yt-dlp.
 - **Extras:** `reframe` (mediapipe), `diarize` (pyannote.audio), `parakeet` (sherpa-onnx), `matting`/`scenes-neural` (torch), `animations` (manim).
+- **Extra `cinematic`** (`uv pip install pyloudnorm pedalboard` ou `uv sync --extra cinematic` + os extras que já usa): trilha cinematográfica.
+- **Separador de voz:** `audio-separator` num ambiente **Python 3.11 próprio** em `audio/trilha-cinematografica/.venv-separador` (no 3.14 não compila); modelo MelBand RoFormer Big Beta 4 (~1,5 GB) baixa no 1º uso para `audio/trilha-cinematografica/modelos`.
 - **Fora do pyproject:** `pycolmap` (instalado à mão; a câmera 3D depende dele).
 - **Node:** HyperFrames `0.8.93` via `npx`; Remotion + three + @react-three/fiber nos `package.json` de `core/assets/*`.
 
@@ -64,6 +69,8 @@ a fonte é sempre o `SKILL.md` e a `references/` correspondente.
 Registrar downloads de banco/licença com `media_ledger.py`. Chaves reais só no `.env` (ignorado pelo git).
 
 ## Pendências conhecidas
+
+0. Trilha cinematográfica: `.venv-separador` ainda não criado; no teste sintético o `mix_voz_na_frente` saiu com pico −0,8 dBFS (alvo < −1) — passar pelo `qa_mix.py` antes de entregar. Música comercial só com licença.
 
 1. `pycolmap` não declarado no `core/pyproject.toml`.
 2. Modelos `.onnx`/`.tflite` estão no `.gitignore` do core: a suite os guarda, o repositório não.

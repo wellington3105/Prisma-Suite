@@ -1,0 +1,11 @@
+# Scripts de 2-projeto (Python 3.10 ou mais novo)
+numpy
+scipy
+soundfile
+librosa
+pyloudnorm
+pedalboard
+matplotlib
+# opcionais
+# faster-whisper   (medicao/tr.py: tempo de cada palavra da voz)
+# essentia         (medir_musica.py: tom mais confiável; Mac e Linux, no Windows pelo WSL)
