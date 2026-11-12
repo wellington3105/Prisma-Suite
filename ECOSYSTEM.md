@@ -70,7 +70,7 @@ Registrar downloads de banco/licença com `media_ledger.py`. Chaves reais só no
 
 ## Pendências conhecidas
 
-0. Trilha cinematográfica: `.venv-separador` ainda não criado; no teste sintético o `mix_voz_na_frente` saiu com pico −0,8 dBFS (alvo < −1) — passar pelo `qa_mix.py` antes de entregar. Música comercial só com licença.
+0. Trilha cinematográfica: `.venv-separador` criado (Py 3.11, torch 2.11+cu128, audio-separator 0.48, RTX 5070 OK; ~25–33 s por 20 s de áudio com carga do modelo). A cópia em `~/.claude/skills/trilha-cinematografica` não enxerga esse ambiente: defina `AUDIO_SEPARATOR` com o caminho do `audio-separator.exe` da Suite ou rode os scripts da Suite. no teste sintético o `mix_voz_na_frente` saiu com pico −0,8 dBFS (alvo < −1) — passar pelo `qa_mix.py` antes de entregar. Música comercial só com licença.
 
 1. `pycolmap` não declarado no `core/pyproject.toml`.
 2. Modelos `.onnx`/`.tflite` estão no `.gitignore` do core: a suite os guarda, o repositório não.
