@@ -1,0 +1,27 @@
+MODELO DE PEDIDO PARA O GERADOR DE VÍDEO
+Troque o que está entre colchetes. Mantenha a ordem das seis partes. Apague as linhas que começam com #.
+
+# 1. O que fica igual
+Keep the [man / woman] exactly as in the image: same face, same hair, same [clothes], same position in the frame. Keep the place exactly as it is: [the corridor, the wall on the right, the floor].
+
+# 2. A ação (uma só)
+[He swings his arm in one fast horizontal move from left to right.]
+
+# 3. A reação do cenário
+[A straight cut opens in the plaster wall along the path of the move; plaster dust bursts out of it and falls; the light on the wall flickers once.]
+
+# 4. A marca que fica
+[The cut stays open in the wall until the end, with broken edges and a faint glow from inside; dust hangs low near the floor.]
+
+# 5. A câmera
+Locked-off camera on a tripod, no camera movement, no zoom, same framing from the first to the last frame.
+
+# 6. O que não pode
+Photoreal, as if shot in camera. No text, no letters, no new objects, no change to the face, no change to the framing.
+
+---
+LEMBRETES
+- Descreva só o que aparece no quadro.
+- Um efeito por clipe.
+- Diga a cor da luz e de onde ela nasce.
+- Gere curto e na resolução mais barata primeiro.

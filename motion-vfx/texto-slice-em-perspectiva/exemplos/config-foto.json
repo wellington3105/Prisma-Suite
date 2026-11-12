@@ -1,0 +1,14 @@
+{
+  "entrada": "cena_com_figura.jpg",
+  "vazio": "cena_vazia.jpg",
+  "quad": [[90, 70], [1190, 210], [1190, 430], [90, 520]],
+  "proporcao": 4.0,
+  "texto": "SEU TEXTO",
+  "rotulo": "EXEMPLO",
+  "corte": {"de": [0.0, 0.62], "para": [1.0, 0.42]},
+  "abertura": 0.16,
+  "cor": [245, 245, 245],
+  "cor_corte": [110, 200, 255],
+  "opacidade": 0.82,
+  "saida": "saida_foto"
+}

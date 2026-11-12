@@ -14,7 +14,7 @@ Conferir a instalação: `python prisma-suite.py doctor`.
 |---|---|---|
 | `core/` | repo Prisma (com `.git`): helpers, references, assets, instaladores, `skill-aliases/` | `~/.claude/skills/prisma` |
 | `engines/` | motores de render e mídia: `hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `media-use`, `slideshow`, `remotion-best-practices`, `remotion-motion-graphics` | `~/.claude/skills` |
-| `motion-vfx/` | `animate`, `rive-skills`, `text-to-lottie`, `wiggle-claude-skill`, 8 `gsap-*`, 10 `threejs-*` | `~/.claude/skills` |
+| `motion-vfx/` | `animate`, `rive-skills`, `text-to-lottie`, `wiggle-claude-skill`, `texto-slice-em-perspectiva`, 8 `gsap-*`, 10 `threejs-*` | `~/.claude/skills` |
 | `external/prisma-video-skills/` | os 24 recursos externos (1,7 GB, repos git aninhados) + `manifest.json` | `~/.aiox-global/vendor` |
 | `models/` | índice dos modelos; os arquivos ficam em `core/` onde o código os procura | ver `models/MODELOS.md` |
 | `manifests/` | `build_manifest.py` e `ecosystem.lock.json` | gerado |
@@ -36,6 +36,7 @@ Conferir a instalação: `python prisma-suite.py doctor`.
 | SFX e trilha | `sfx_events`, `sfx_index`, `sfx_peak`, `sfx_synth` | `core/references/sfx-craft.md`, `soundtrack.md` |
 | Inserts / B-roll | `inserts_plan` | `engines/media-use`, `core/references/scenes.md` |
 | Animação web (GSAP, Rive, Lottie, Three.js) | — | `motion-vfx/*` |
+| Texto preso à parede em perspectiva, atrás da pessoa, cortado ("slice") | apoio: `detect_plane`, `person_matte` | `motion-vfx/texto-slice-em-perspectiva` (`scripts/slice_texto.py config.json prova|final`; câmera parada) |
 | Recurso de terceiros (Clipify, OpenMontage…) | `helpers/external_skills.py list` | `external/prisma-video-skills/`, `core/references/external-video-skills.md` |
 
 Os nomes de helper acima vêm da listagem de `core/helpers/`; para argumentos e ordem de uso,

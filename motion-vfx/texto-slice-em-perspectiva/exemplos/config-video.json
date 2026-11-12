@@ -1,0 +1,12 @@
+{
+  "entrada": "cena_video.mp4",
+  "vazio": "cena_vazia.jpg",
+  "quad": [[90, 70], [1190, 210], [1190, 430], [90, 520]],
+  "proporcao": 4.0,
+  "texto": "SEU TEXTO",
+  "corte": {"de": [0.0, 0.62], "para": [1.0, 0.42]},
+  "abertura": 0.20,
+  "t_corte": 1.5,
+  "dur_corte": 0.30,
+  "saida": "saida_video"
+}
