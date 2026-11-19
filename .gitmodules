@@ -73,3 +73,21 @@
 [submodule "youtube-agent-skill"]
 	path = external/prisma-video-skills/youtube-agent-skill
 	url = https://github.com/Jakeschincariol/youtube-agent-skill.git
+[submodule "external/prisma-video-skills/supoclip"]
+	path = external/prisma-video-skills/supoclip
+	url = https://github.com/FujiwaraChoki/supoclip.git
+[submodule "external/prisma-video-skills/autoclip_mvp"]
+	path = external/prisma-video-skills/autoclip_mvp
+	url = https://github.com/zhouxiaoka/autoclip_mvp.git
+[submodule "external/prisma-video-skills/viral-clips-crew"]
+	path = external/prisma-video-skills/viral-clips-crew
+	url = https://github.com/alexfazio/viral-clips-crew.git
+[submodule "external/prisma-video-skills/autoclip-artbyjazi"]
+	path = external/prisma-video-skills/autoclip-artbyjazi
+	url = https://github.com/artbyjazi/autoclip.git
+[submodule "external/prisma-video-skills/shortcast"]
+	path = external/prisma-video-skills/shortcast
+	url = https://github.com/mutonby/shortcast.git
+[submodule "external/prisma-video-skills/Clip-Anything"]
+	path = external/prisma-video-skills/Clip-Anything
+	url = https://github.com/SamurAIGPT/Clip-Anything.git
