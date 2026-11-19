@@ -364,6 +364,36 @@
       "remote": "https://github.com/Jakeschincariol/youtube-agent-skill.git",
       "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
       "dirty": false
+    },
+    "supoclip": {
+      "remote": "https://github.com/FujiwaraChoki/supoclip.git",
+      "commit": "0633c307ffcd7b4854389473cc9802c6d13c5815",
+      "dirty": false
+    },
+    "autoclip_mvp": {
+      "remote": "https://github.com/zhouxiaoka/autoclip_mvp.git",
+      "commit": "ec75aa71ff5a5783bee618d2432b19ef9ea2352e",
+      "dirty": false
+    },
+    "viral-clips-crew": {
+      "remote": "https://github.com/alexfazio/viral-clips-crew.git",
+      "commit": "82888d948177216949ab432031f3867b5a19a1c6",
+      "dirty": false
+    },
+    "autoclip-artbyjazi": {
+      "remote": "https://github.com/artbyjazi/autoclip.git",
+      "commit": "5d0eac36fa615b79dd2104083bf273a96f8d68bb",
+      "dirty": false
+    },
+    "shortcast": {
+      "remote": "https://github.com/mutonby/shortcast.git",
+      "commit": "618a5075a877773893035726002f24dc0ff9a002",
+      "dirty": false
+    },
+    "Clip-Anything": {
+      "remote": "https://github.com/SamurAIGPT/Clip-Anything.git",
+      "commit": "f455b2d306cec77d05b0060c34fa0112f1802a10",
+      "dirty": false
     }
   },
   "models": {

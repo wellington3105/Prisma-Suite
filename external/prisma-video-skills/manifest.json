@@ -594,6 +594,86 @@
         "references/ribbon-fitting.md",
         "references/twelve-principles-for-logos.md"
       ]
+    },
+    {
+      "name": "supoclip",
+      "source": "https://github.com/FujiwaraChoki/supoclip.git",
+      "commit": "0633c307ffcd7b4854389473cc9802c6d13c5815",
+      "skill_count": 5,
+      "skill_files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "QUICKSTART.md",
+        "README.md",
+        "backend/src/ai.py"
+      ]
+    },
+    {
+      "name": "autoclip_mvp",
+      "source": "https://github.com/zhouxiaoka/autoclip_mvp.git",
+      "commit": "ec75aa71ff5a5783bee618d2432b19ef9ea2352e",
+      "skill_count": 12,
+      "skill_files": [
+        "README.md",
+        "README.zh-CN.md",
+        "prompt/主题聚类.txt",
+        "prompt/大纲.txt",
+        "prompt/推荐理由.txt",
+        "prompt/时间点.txt",
+        "prompt/标题生成.txt",
+        "src/pipeline/step1_outline.py",
+        "src/pipeline/step2_timeline.py",
+        "src/pipeline/step3_scoring.py",
+        "src/pipeline/step4_title.py",
+        "src/pipeline/step5_clustering.py"
+      ]
+    },
+    {
+      "name": "viral-clips-crew",
+      "source": "https://github.com/alexfazio/viral-clips-crew.git",
+      "commit": "82888d948177216949ab432031f3867b5a19a1c6",
+      "skill_count": 5,
+      "skill_files": [
+        "README.md",
+        "clipper.py",
+        "crew.py",
+        "extracts.py",
+        "resources/faster_subs_prompt.txt"
+      ]
+    },
+    {
+      "name": "autoclip-artbyjazi",
+      "source": "https://github.com/artbyjazi/autoclip.git",
+      "commit": "5d0eac36fa615b79dd2104083bf273a96f8d68bb",
+      "skill_count": 4,
+      "skill_files": [
+        "README.md",
+        "backend/autoclip/pipeline/highlights.py",
+        "backend/autoclip/prompts/highlight_v1.txt",
+        "docs/ARCHITECTURE.md"
+      ]
+    },
+    {
+      "name": "shortcast",
+      "source": "https://github.com/mutonby/shortcast.git",
+      "commit": "618a5075a877773893035726002f24dc0ff9a002",
+      "skill_count": 4,
+      "skill_files": [
+        "README.md",
+        "Shortcast/Models/ClipCandidate.swift",
+        "Shortcast/Resources/social-content-coach.md",
+        "Shortcast/Services/MomentFinderService.swift"
+      ]
+    },
+    {
+      "name": "Clip-Anything",
+      "source": "https://github.com/SamurAIGPT/Clip-Anything.git",
+      "commit": "f455b2d306cec77d05b0060c34fa0112f1802a10",
+      "skill_count": 2,
+      "skill_files": [
+        "README.md",
+        "app.py"
+      ]
     }
   ],
   "motion_packs": [
